@@ -19,14 +19,9 @@
 
 package org.elasticsearch.index.analysis;
 
-import com.chenlb.mmseg4j.ComplexSeg;
 import com.chenlb.mmseg4j.Dictionary;
-import com.chenlb.mmseg4j.MaxWordSeg;
-import com.chenlb.mmseg4j.SimpleSeg;
 import com.chenlb.mmseg4j.analysis.*;
 import org.apache.lucene.analysis.Analyzer;
-import org.apache.lucene.analysis.TokenStream;
-import org.apache.lucene.analysis.Tokenizer;
 import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.env.Environment;
 import org.elasticsearch.index.IndexSettings;
