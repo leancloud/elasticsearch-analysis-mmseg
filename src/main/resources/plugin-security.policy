@@ -4,6 +4,7 @@ grant {
 
   // needed for c3p0 set property
   permission java.util.PropertyPermission "*", "read,write";
+  permission java.lang.RuntimePermission "setContextClassLoader";
 
   // needed for c3p0 MBean management
   permission javax.management.MBeanServerPermission "createMBeanServer";
